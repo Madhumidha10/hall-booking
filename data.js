@@ -48,7 +48,7 @@ const booking=[{
 },{
 booking_id:"b105",
 room_id:"103",
-customer_name:"Ravi",
+customer_name:"Babu",
 booking_date:"2014-01-01",
 start_time:"10:12",
 end_time:"12:12",
@@ -64,7 +64,7 @@ booked_status:"B",},
   {
     booking_id:"b101",
     room_id:"102",
-    customer_name:"Ravi",
+    customer_name:"Arul",
     booking_date:"2014-01-01",
     start_time:"10:12",
     end_time:"12:12",

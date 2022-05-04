@@ -1,13 +1,13 @@
 //importing required packages and modules
 const express = require("express");
 const { rooms, booking } = require("./data");
-
+require('dotenv').config()
 //create a app
 const app = express();
 //app use bodyparser
 app.use(express.json());
 //port
-const port = 5000;
+const port = process.env.PORT;
 //Api to get room booked data
 app.get("/roomBookedData", async (req, res) => {
   try {
